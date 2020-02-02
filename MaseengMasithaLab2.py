@@ -26,3 +26,4 @@ feelTemp(18)                        # Calling on the function.
 
 # Topic: Alternative and chained conditionals
 # Multiple conditions for temperature called for elif and else statements always preserving the else statement for the last condition.
+# Logical operator, and was used thus creating a boolean expression.
