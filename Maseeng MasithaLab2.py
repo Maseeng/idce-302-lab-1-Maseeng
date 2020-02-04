@@ -13,6 +13,8 @@ Original file is located at
 # Lab 2
 # Time spent: 2 hours
 
+Temp = int(input('Enter the temperature:'))
+
 def feelTemp(Temp):                 # Defining the function, feelTemp. Temp is the argument or parameter.
   if Temp >= 100:                   # Condition 1.
     print("It is hot.")             # Result 1.
@@ -23,7 +25,7 @@ def feelTemp(Temp):                 # Defining the function, feelTemp. Temp is t
   else:
     print("It is cold.")
 
-feelTemp(18)                        # Calling on the function.
+feelTemp(Temp)                          # Calling on the function.
 
 # Topic: Alternative and chained conditionals
 # Multiple conditions for temperature called for elif and else statements always preserving the else statement for the last condition.
